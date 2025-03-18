@@ -19,32 +19,32 @@ keyboardId := AHI.GetKeyboardId(0x0, 0x0)
 ProcessNote(device, channel, note, velocity, isNoteOn) {
     if (note == 48 AND velocity > 0) {
         SendKeyDown("q")
-        Sleep(50)
+        Sleep(1)
         SendKeyUp("q")
     }
     if (note == 50 AND velocity > 0) {
         SendKeyDown("w")
-        Sleep(50)
+        Sleep(1)
         SendKeyUp("w")
     }
     if (note == 52 AND velocity > 0) {
         SendKeyDown("e")
-        Sleep(50)
+        Sleep(1)
         SendKeyUp("e")
     }
     if (note == 53 AND velocity > 0) {
         SendKeyDown("r")
-        Sleep(50)
+        Sleep(1)
         SendKeyUp("r")
     }
     if (note == 55 AND velocity > 0) {
         SendKeyDown("t")
-        Sleep(50)
+        Sleep(1)
         SendKeyUp("t")
     }
     if (note == 57 AND velocity > 0) {
         SendKeyDown("y")
-        Sleep(50)
+        Sleep(1)
         SendKeyUp("y")
     }
 }
